@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "tabs": [
+    { "id": "dashboard", "label": "Dashboard", "type": "canvas" },
+    { "id": "contracts", "label": "Contracts", "type": "module", "src": "/hud/modules/contract.js" },
+    { "id": "avatar", "label": "Avatar", "type": "module", "src": "/hud/modules/avatar.js" },
+    { "id": "quests", "label": "Quests", "type": "module", "src": "/hud/modules/quests.js" },
+    { "id": "log", "label": "Logs", "type": "iframe", "src": "/hud/modules/log.html" }
+  ],
+  "options": { "chat": true }
+}
+
+{
+  "version": 1,
+  "tabs": [
+    { "id": "dashboard", "label": "Dashboard", "type": "canvas" },
+    { "id": "quests", "label": "Quests", "type": "module", "src": "/hud/modules/quests.js" },
+    { "id": "log", "label": "Logs", "type": "iframe", "src": "/hud/modules/log.html" }
+  ],
+  "options": { "chat": true }
+}
